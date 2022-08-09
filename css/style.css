@@ -1,0 +1,82 @@
+body {}
+
+
+/* COOMON ELEMENT */
+
+.container {
+    max-width: 1170px;
+}
+
+.section-heading {}
+
+.description {}
+
+.btn-sign-up {}
+
+
+/* HEADER-------------------------- */
+
+.header__logo {}
+
+.header__links-list {}
+
+.header__link {}
+
+
+/* HERO----------------------------- */
+
+.hero {}
+
+.hero__description {}
+
+.hero__heading {}
+
+.hero__description {}
+
+.hero_button {}
+
+.hero__img {}
+
+
+/* CARDS------------------------------- */
+
+.section-cards {}
+
+.cards {}
+
+.card {}
+
+.card__img {}
+
+.card__descripton {}
+
+
+/* REVIEWS */
+
+.reviews {}
+
+.review__text {}
+
+.review__autor {}
+
+
+/* CALL ME -------------- */
+
+.call-me {}
+
+.call-me__wrap {}
+
+.call-me__text {}
+
+.call-me__heading {}
+
+.call-me__description {}
+
+.call-me__button {}
+
+
+/* FOOTER --------------------------- */
+
+.footer {}
+
+.footer__text {}
