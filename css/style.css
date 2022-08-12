@@ -1,82 +1,199 @@
-body {}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FONTS  */
 
 
 /* COOMON ELEMENT */
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .section-heading {}
 
 .description {}
 
-.btn-sign-up {}
+.btn-sign-up {
+    border-radius: 5px;
+    border: 0px;
+}
 
 
 /* HEADER-------------------------- */
 
-.header__logo {}
+.header {
+    background-color: #1F2937;
+}
 
-.header__links-list {}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.header__link {}
+.header__logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header__links-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header__link {
+    margin-left: 30px;
+}
 
 
 /* HERO----------------------------- */
 
-.hero {}
+.hero {
+    background-color: #1F2937;
+    padding: 170px 0px 130px;
+}
 
-.hero__description {}
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
 
-.hero__heading {}
+.hero__heading {
+    font-size: 48px;
+    font-weight: extra-bolt;
+    color: #F9FAF8;
+}
 
-.hero__description {}
+.hero__description {
+    color: #E5E7EB;
+    max-width: 450px;
+}
 
-.hero_button {}
+.hero_button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+}
 
-.hero__img {}
+.hero__img {
+    display: block;
+    color: transparent;
+    width: 50%;
+    height: 200px;
+    background-color: #636364;
+    align-self: center;
+}
 
 
 /* CARDS------------------------------- */
 
 .section-cards {}
 
-.cards {}
+.cards__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 115px;
+    margin-top: 50px;
+}
 
-.card {}
+.cards__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
 
-.card__img {}
+.card {
+    width: 160px;
+    margin-right: 10px;
+}
 
-.card__descripton {}
+.card__img {
+    width: 160px;
+    height: 160px;
+    outline: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card__descripton {
+    text-align: center;
+}
 
 
 /* REVIEWS */
 
-.reviews {}
+.reviews {
+    background-color: #E5E7EB;
+    padding: 130px 90px 100px;
+}
 
-.review__text {}
+.reviews__container {}
 
-.review__autor {}
+.review__text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.review__autor {
+    text-align: end;
+}
 
 
 /* CALL ME -------------- */
 
-.call-me {}
+.call-me {
+    padding: 100px 0;
+}
 
-.call-me__wrap {}
+.call-me__wrap {
+    max-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+}
 
 .call-me__text {}
 
-.call-me__heading {}
+.call-me__heading {
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
 
-.call-me__description {}
+.call-me__description {
+    color: #E5E7EB;
+}
 
-.call-me__button {}
+.call-me__button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px 25px;
+}
 
 
 /* FOOTER --------------------------- */
 
-.footer {}
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+}
 
 .footer__text {}
